@@ -12,6 +12,7 @@
   border: none;
   outline: none;
   text-decoration: none;
+  text-transform: capitalize;
   font-weight: 400;
   transition: 0.2s linear;
 }
@@ -38,4 +39,40 @@ header .menu {
   cursor: pointer;
   z-index: 1000;
   overflow: hidden;
+}
+
+header .navbar {
+  height: 100vh;
+  width: 30rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #111;
+  display: none;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 100%;
+  list-style: none;
+}
+
+header .navbar ul li {
+  margin: 1.4rem;
+}
+
+header .navbar ul li a {
+  font-size: 3rem;
+  color: #fff;
+}
+
+header .navbar ul li a:hover {
+  color: var(--red);
+}
+
+.fa-times {
+  transform: rotate(180deg) skew(-180deg);
 }
