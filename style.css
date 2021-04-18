@@ -25,3 +25,17 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
+header .menu {
+  position: fixed;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 3.5rem;
+  color: var(--red);
+  background: #fff;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+  padding: 0.3rem 1.4rem;
+  cursor: pointer;
+  z-index: 1000;
+  overflow: hidden;
+}
