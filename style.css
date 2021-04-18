@@ -76,3 +76,8 @@ header .navbar ul li a:hover {
 .fa-times {
   transform: rotate(180deg) skew(-180deg);
 }
+
+.home {
+  position: relative;
+  min-height: 100vh;
+}
