@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
 
+:root {
+  --red: #ee3623;
+}
+
 * {
   font-family: "Crimson Text", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.2s linear;
+}
+
+*::selection {
+  background: var(--red);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
