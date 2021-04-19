@@ -24,4 +24,4 @@
 
 ## screenshots
 
-[img2](img/screenshots)
+[img2](<img/screenshots(269).png>)
