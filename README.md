@@ -1,3 +1,4 @@
+
 # Tours-Travel-app
 
 ## Complete Responsive Tours &amp; Travel Website Design Using [ HTML - CSS -JQUERY ] , Simple Tourism Website .
@@ -24,4 +25,6 @@
 
 ## screenshots
 
-[img2](<img/screenshots(269).png>)
+[img2](img/screenshots(269).png)
+
+![Screenshot (269)](https://user-images.githubusercontent.com/65695097/115304313-1a4db080-a165-11eb-833f-952564a60f13.png)
