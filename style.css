@@ -105,3 +105,41 @@ header .navbar ul li a:hover {
   object-fit: cover;
   z-index: -1;
 }
+
+.home .content {
+  min-height: 100vh;
+  width: 45rem;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 2rem 3rem;
+  color: #fff;
+}
+
+.home .content h1 {
+  font-size: 4rem;
+  padding-top: 4vh;
+  text-transform: uppercase;
+}
+
+.home .content h3 {
+  font-size: 3rem;
+  color: #eee;
+  font-weight: lighter;
+}
+
+.home .content .from-container form {
+  width: 100%;
+  background: #fff;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+}
+
+.home .content .from-container form h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 2rem 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: 400px;
+  text-transform: uppercase;
+}
