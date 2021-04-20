@@ -440,6 +440,39 @@ header .navbar ul li a:hover {
   margin: 1rem 0 2rem 0;
 }
 
+.contant {
+  background: #2c3a47;
+}
+
+.contant .title {
+  color: #eee;
+}
+.contant form {
+  width: 80%;
+  padding: 4rem 0;
+}
+.contant form .inputBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contant form .inputBox input {
+  width: 49%;
+  height: 4rem;
+}
+.contant form input,
+textarea {
+  padding: 0 1rem;
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+.contant form textarea {
+  box-shadow: none;
+  color: #fff;
+  opacity: 1;
+}
+
 /*Public*/
 
 @media (max-width: 500px) {
