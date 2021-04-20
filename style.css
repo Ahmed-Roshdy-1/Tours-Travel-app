@@ -316,7 +316,7 @@ header .navbar ul li a:hover {
   align-items: center;
   overflow: hidden;
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
-  background: cornsilk;
+  background: #ffa5ab;
 }
 .gallery .box-container .box .image {
   width: 50%;
