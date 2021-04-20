@@ -34,13 +34,14 @@ html {
 .btn {
   height: 3.5rem;
   width: 15rem;
-  font-weight: bold;
+  color: #fff;
   background-color: var(--red);
   border-radius: 0.5rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
   cursor: pointer;
   margin: 1rem 0;
   opacity: 0.7;
+  box-shadow: none;
 }
 .btn:hover {
   opacity: 1;
@@ -201,14 +202,13 @@ header .navbar ul li a:hover {
   width: 15rem;
   background-color: var(--red);
   margin: 1.5rem 0;
-  font-size: large;
-  color: #000;
+  font-size: 2rem;
 }
 
 .feature {
   background: #2c3a47;
   color: #fff;
-  font: bold;
+  height: 75rem;
 }
 .feature .title {
   color: #eee;
@@ -221,9 +221,9 @@ header .navbar ul li a:hover {
 }
 
 .feature .card-container .card {
-  height: 45rem;
+  height: 50rem;
   width: 30rem;
-  margin: 2rem 1rem;
+  margin: 2rem 5rem;
   position: relative;
   overflow: hidden;
 }
@@ -236,6 +236,18 @@ header .navbar ul li a:hover {
   background: linear-gradient(transparent, #000);
   padding: 0 2rem;
   padding-top: 85%;
+}
+.feature .card-container .card .info h3 {
+  font-size: 3rem;
+}
+.feature .card-container .card .info .stars i {
+  font-size: 1.5rem;
+  color: var(--red);
+  padding: 1rem 0;
+}
+
+.feature .card-container .card .info p {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 500px) {
