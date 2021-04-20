@@ -399,7 +399,6 @@ header .navbar ul li a:hover {
 
 .newsletter {
   background: var(--red);
-  height: 100;
   padding: 3rem;
 }
 .newsletter .box {
@@ -422,7 +421,7 @@ header .navbar ul li a:hover {
 .newsletter .box form {
   background: #eee;
   width: 50%;
-  margin: 2rem auto;
+  margin: 4rem auto;
   padding: 0.5rem 0;
   height: 4rem;
   border-radius: 5rem;
@@ -438,7 +437,7 @@ header .navbar ul li a:hover {
 .newsletter .box form .btn {
   width: 30%;
   border-radius: 5rem;
-  margin: 2rem 0 2rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 /*Public*/
