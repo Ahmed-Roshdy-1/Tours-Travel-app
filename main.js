@@ -7,7 +7,7 @@ $(document).ready(function(){
     });
 
     $(window).on('load scroll',function(){
-        $('.navbar').remove();
+        $('.navbar').hide();
         $('.menu .fa-bars').toggleClass('fa-times');
         $('section').removeClass('nav-toggle');
     });
