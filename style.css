@@ -46,6 +46,10 @@ html {
   opacity: 1;
 }
 
+img {
+  width: 100%;
+}
+
 header .menu {
   position: fixed;
   top: 1.5rem;
