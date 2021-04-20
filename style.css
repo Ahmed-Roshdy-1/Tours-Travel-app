@@ -217,8 +217,11 @@ header .navbar ul li a:hover {
 }
 
 .feature .card-container .card {
-  height: 40rem;
+  height: 35rem;
   width: 30rem;
+  margin: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 500px) {
