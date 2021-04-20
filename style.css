@@ -468,6 +468,12 @@ textarea {
   color: #333;
 }
 .contant form textarea {
+  padding: 1rem;
+  height: 20rem;
+  resize: none;
+  width: 100%;
+}
+.contant form .btn {
   box-shadow: none;
   color: #fff;
   opacity: 1;
