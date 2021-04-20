@@ -347,6 +347,57 @@ header .navbar ul li a:hover {
 .gallery .box-container .box .content h3 {
   color: var(--red);
 }
+.review .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.review .box-container .box {
+  width: 30rem;
+  text-align: center;
+  padding: 0 2rem;
+  margin: 4rem 1.5rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+.review .box-container .box p {
+  color: ##334;
+  font-size: 1.8rem;
+}
+
+.review .box-container .box .user img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0.8rem 1rem;
+}
+.review .box-container .box .user {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0.5rem 0;
+  border-top: 0.1rem solid #666;
+}
+
+.review .box-container .box i {
+  font-size: 6rem;
+  margin: -3rem;
+  color: var(--red);
+  opacity: 0.4;
+}
+.review .box-container .box .user .info h3 {
+  color: var(--red);
+  font-size: 2.5rem;
+}
+
+.review .box-container .box .user .info span {
+  color: #334;
+  font-size: 1.8rem;
+}
+
+/*Public*/
 
 @media (max-width: 500px) {
   html {
@@ -418,20 +469,6 @@ header .navbar ul li a:hover {
     }
   }
 
-  .review .box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
-  }
-  .review .box-container .box {
-    width: 30rem;
-  }
-
-  .review .box-container .box .user img {
-    height: 4rem;
-    width: 4rem;
-  }
   @media (max-width: 868px) {
     html {
       font-size: 55%;
