@@ -208,7 +208,7 @@ header .navbar ul li a:hover {
 .feature {
   background: #2c3a47;
   color: #fff;
-  height: 75rem;
+  height: 73rem;
 }
 .feature .title {
   color: #eee;
@@ -231,11 +231,15 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -100%;
   left: 0;
   background: linear-gradient(transparent, #000);
   padding: 0 2rem;
   padding-top: 85%;
+}
+
+.feature .card-container .card:hover .info {
+  bottom: 0;
 }
 .feature .card-container .card .info h3 {
   font-size: 3rem;
