@@ -418,6 +418,20 @@ header .navbar ul li a:hover {
     }
   }
 
+  .review .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
+  .review .box-container .box {
+    width: 30rem;
+  }
+
+  .review .box-container .box .user img {
+    height: 4rem;
+    width: 4rem;
+  }
   @media (max-width: 868px) {
     html {
       font-size: 55%;
