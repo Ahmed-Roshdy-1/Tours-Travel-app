@@ -254,11 +254,94 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
 }
 
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.about .row .image img {
+  height: 100%;
+  width: 40vw;
+}
+
+.about .row .content h3 {
+  font-size: 3.5rem;
+  color: var(--red);
+  position: relative;
+}
+
+.about .row .content p {
+  font-size: 2.5rem;
+  color: #000;
+  padding: 1rem 0;
+}
+
+.about .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .box-container .box {
+  margin: 2rem;
+  height: 15rem;
+  width: 25rem;
+  border-radius: 1rem;
+  background: var(--red);
+  text-align: center;
+  color: #fff;
+}
+.about .box-container .box i {
+  font-size: 5rem;
+  margin: 2rem 0;
+}
+
+.about .box-container .box h3 {
+  font-size: 2.5rem;
+}
+
 @media (max-width: 500px) {
   html {
     font-size: 50%;
   }
   .home .content {
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .feature {
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .feature {
+    height: 100%;
+  }
+}
+
+@media (max-width: 868px) {
+  html {
+    font-size: 55%;
+  }
+  .about .row {
+    flex-flow: column;
+    width: 90%;
+  }
+  .about .row .image img {
+    width: 90vw;
+    height: 100%;
+  }
+  .feature {
+    height: 100%;
   }
 }
