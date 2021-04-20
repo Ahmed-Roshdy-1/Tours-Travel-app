@@ -312,7 +312,8 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
-@media (max-width: 500px) {
+
+@media (max-width: 1200px) {
   html {
     font-size: 50%;
   }
