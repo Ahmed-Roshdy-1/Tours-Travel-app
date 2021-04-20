@@ -449,7 +449,10 @@ header .navbar ul li a:hover {
 }
 .contant form {
   width: 80%;
+
   padding: 4rem 0;
+  align-self: center;
+  margin-left: 15rem;
 }
 .contant form .inputBox {
   display: flex;
@@ -459,6 +462,7 @@ header .navbar ul li a:hover {
 .contant form .inputBox input {
   width: 49%;
   height: 4rem;
+  align-self: center;
 }
 .contant form input,
 textarea {
@@ -477,6 +481,7 @@ textarea {
   box-shadow: none;
   color: #fff;
   opacity: 1;
+  width: 100%;
 }
 
 /*Public*/
