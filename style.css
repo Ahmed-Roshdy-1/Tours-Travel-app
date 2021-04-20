@@ -304,12 +304,59 @@ header .navbar ul li a:hover {
   font-size: 2.5rem;
 }
 
+.gallery .box-container {
+  padding: 4rem 0;
+}
+
+.gallery .box-container .box {
+  width: 75%;
+  margin: 4rem auto;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  background: cornsilk;
+}
+.gallery .box-container .box .image {
+  width: 50%;
+  height: 55rem;
+}
+
+.gallery .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery .box-container .box .content {
+  height: 100%;
+  width: 50%;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.gallery .box-container .box:nth-child(even) {
+  flex-flow: row-reverse;
+}
+
+.gallery .box-container .box:nth-child(even) .content {
+  text-align: right;
+}
+
+.gallery .box-container .box .content h3 {
+  color: var(--red);
+}
+
 @media (max-width: 500px) {
   html {
     font-size: 50%;
   }
   .home .content {
     width: 100%;
+  }
+  .feature {
+    height: 100%;
   }
 }
 
@@ -327,6 +374,71 @@ header .navbar ul li a:hover {
   }
   .feature {
     height: 100%;
+  }
+  .gallery .box-container .box {
+    flex-flow: column;
+  }
+  @media (max-width: 500px) {
+    html {
+      font-size: 50%;
+    }
+    .home .content {
+      width: 100%;
+    }
+    .feature {
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    html {
+      font-size: 50%;
+    }
+    .feature {
+      height: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    html {
+      font-size: 50%;
+    }
+    .feature {
+      height: 100%;
+    }
+
+    .gallery .box-container .box:nth-child(even) {
+      flex-flow: column;
+    }
+    .gallery .box-container .box .image {
+      width: 100%;
+    }
+    .gallery .box-container .box :nth-child(even).content {
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 868px) {
+    html {
+      font-size: 55%;
+    }
+    .about .row {
+      flex-flow: column;
+      width: 90%;
+    }
+    .about .row .image img {
+      width: 90vw;
+      height: 100%;
+    }
+    .feature {
+      height: 100%;
+    }
+  }
+  .gallery .box-container .box .image {
+    width: 100%;
+  }
+  .gallery .box-container .box .content {
+    width: 100%;
   }
 }
 
