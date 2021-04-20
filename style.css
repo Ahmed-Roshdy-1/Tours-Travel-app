@@ -397,6 +397,50 @@ header .navbar ul li a:hover {
   font-size: 1.8rem;
 }
 
+.newsletter {
+  background: var(--red);
+  height: 100;
+  padding: 3rem;
+}
+.newsletter .box {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: #f9f9f9;
+}
+
+.newsletter .box h1 {
+  color: var(--red);
+  font-size: 4rem;
+}
+.newsletter .box p {
+  color: #334;
+  font-size: 2rem;
+}
+
+.newsletter .box form {
+  background: #eee;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 0.5rem 0;
+  height: 4rem;
+  border-radius: 5rem;
+}
+
+.newsletter .box form input[type="email"] {
+  width: 100%;
+  background: none;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.newsletter .box form .btn {
+  width: 30%;
+  border-radius: 5rem;
+  margin: 2rem 0 2rem 0;
+}
+
 /*Public*/
 
 @media (max-width: 500px) {
