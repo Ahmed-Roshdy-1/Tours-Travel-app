@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     $(window).on('load scroll',function(){
         $('.navbar').hide();
-        $('.menu .fa-bars').toggleClass('fa-times');
+        $('.menu .fa-bars').removeClass('fa-times');
         $('section').removeClass('nav-toggle');
     });
 });
