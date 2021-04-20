@@ -50,6 +50,22 @@ img {
   width: 100%;
 }
 
+.heading {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  padding-top: 3.5rem;
+  font-size: 3.5rem;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.title {
+  text-align: center;
+  padding: 0rem 1rem;
+  font-size: 3rem;
+  color: #666;
+}
+
 header .menu {
   position: fixed;
   top: 1.5rem;
@@ -185,6 +201,24 @@ header .navbar ul li a:hover {
   margin: 1.5rem 0;
   font-size: large;
   color: #000;
+}
+
+.feature {
+  background: #2c3a47;
+}
+.feature .title {
+  color: #eee;
+}
+.feature .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.feature .card-container .card {
+  height: 40rem;
+  width: 30rem;
 }
 
 @media (max-width: 500px) {
