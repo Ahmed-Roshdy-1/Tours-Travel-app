@@ -147,7 +147,7 @@ header .navbar ul li a:hover {
 .home .content {
   min-height: 100vh;
   width: 45rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   text-align: center;
   padding: 2rem 3rem;
   color: #ef233c;
