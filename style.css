@@ -150,7 +150,7 @@ header .navbar ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   text-align: center;
   padding: 2rem 3rem;
-  color: var(--red);
+  color: #ef233c;
 }
 
 .home .content h1 {
@@ -161,7 +161,7 @@ header .navbar ul li a:hover {
 
 .home .content h3 {
   font-size: 3rem;
-  color: #000;
+  color: #334;
   font-weight: lighter;
 }
 
