@@ -147,9 +147,10 @@ header .navbar ul li a:hover {
 .home .content {
   min-height: 100vh;
   width: 45rem;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   text-align: center;
   padding: 2rem 3rem;
+  backdrop-filter: blur(0.5rem);
   color: #ef233c;
 }
 
