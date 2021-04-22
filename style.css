@@ -543,6 +543,13 @@ textarea {
     .feature {
       height: 100%;
     }
+    .contant form {
+      width: 80%;
+
+      padding: 4rem 0;
+      align-self: center;
+      margin-left: 5rem;
+    }
   }
   @media (max-width: 768px) {
     html {
@@ -561,6 +568,13 @@ textarea {
     .gallery .box-container .box :nth-child(even).content {
       width: 100%;
       text-align: left;
+    }
+    .contant form {
+      width: 80%;
+
+      padding: 4rem 0;
+      align-self: center;
+      margin-left: 5rem;
     }
   }
 
@@ -585,6 +599,13 @@ textarea {
   }
   .gallery .box-container .box .content {
     width: 100%;
+  }
+  .contant form {
+    width: 80%;
+
+    padding: 4rem 0;
+    align-self: center;
+    margin-left: 6rem;
   }
 }
 
