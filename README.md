@@ -22,7 +22,7 @@
 
 ### ✅ responsive contact section
 
-### ✅ responsive footer section
+
 
 ## screenshots
 
