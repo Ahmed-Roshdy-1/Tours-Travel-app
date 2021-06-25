@@ -134,7 +134,7 @@ header .navbar ul li a:hover {
   z-index: 0;
 }
 
-.home .video-container video {
+.home .img-container img {
   position: absolute;
   top: 0;
   left: 0;
@@ -150,7 +150,7 @@ header .navbar ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   text-align: center;
   padding: 2rem 3rem;
-  backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.1rem);
   color: #ef233c;
 }
 
@@ -162,7 +162,7 @@ header .navbar ul li a:hover {
 
 .home .content h3 {
   font-size: 3rem;
-  color: #334;
+  color: #fff;
   font-weight: lighter;
 }
 
